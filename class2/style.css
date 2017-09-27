@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Press Start 2P'); 
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    margin: auto;
+    width: 900px ;
+    padding: 50px 50px 50px 50px;
+    background-color: #0000ff;
+    border-style: solid;
+    border-color:#fff;
+
+}
+
+header {
+    background-color: #0000ff;
+}
+
+nav {
+    font-family: 'Press Start 2P';
+    font-size: 1.2em;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-top: 7px;
+    /*
+margin-top: -25px;
+margin-bottom: -25px;
+*/
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-links:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+article {
+    background-color: #0000ff;
+    padding-bottom: 50px;
+}
+
+
+h1 {
+    border-style: solid ;
+    color: #fff;
+    font-family: 'Press Start 2P';
+    font-size: 1.5em;
+    padding: 27px 27px 27px 27px;
+
+}
+
+h2 {
+    background-color: #fff;
+    color: #0000ff;
+    font-family: 'Press Start 2P';
+    font-size: 1em;
+    font-kerning: auto;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color: #fff;
+    color: #0000ff;
+    font-family: 'Press Start 2P';
+    font-size: 1em;
+    font-style: oblique;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+p {
+    color: #fff;
+    font-family: 'VT323';
+    font-size: 1.6em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px
+}
+
+.reference-image {
+    margin: auto;
+}
+
+figure{
+    margin: auto;
+}
+
+footer{
+    font-family: 'Press Start 2P';
+    font-size: .3em;
+    font-kerning:auto;
+    color: #fff;
+    padding-left: 700px;
+}
