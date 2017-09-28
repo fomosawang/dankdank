@@ -103,10 +103,8 @@ main{
     width: 380px;
     height: 250px;
 /*    border-style: solid;*/
-/*
     border-color: #fff;
     border-width: thin;
-*/
     text-align: center;
     overflow: hidden;
 }
