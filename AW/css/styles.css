@@ -12,9 +12,11 @@ body {
     width: 1000px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 50px;
+    padding-top: 30px;
     background-image: url(../img/galaxy.jpeg);
-    max-width: 1500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -91,11 +93,30 @@ li {
 }
 main{
     width: 850px;
+    height: 550px;
     float: right;
     display: block;
     margin-bottom: 15px;
     overflow: hidden;
 } 
+h2{
+    font-family: 'Space Mono';
+    float: right;
+    font-size: .8em;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    width: 290px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+p{
+
+    padding: 0px 10px 15px 15px;
+}
+
+.about figure{
+    position: absolute;
+}
 
 .gallery figure {
     float: left;
@@ -126,15 +147,9 @@ figcaption:hover {
 }
 
 
-footer {
+footer{
     margin-left: 250px;
     margin-right: 180px;
-    border-style: solid;
-    border-top-color: #fff;
-    border-top-width: thin;
-    border-bottom-style: none;
-    border-right-style: none;
-    border-left-style: none;
     font-family: 'Press Start 2P';
     font-size: .3em;
     letter-spacing: 1px;
