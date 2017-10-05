@@ -11,9 +11,9 @@
 xmlns="http://www.w3.org/2000/svg">
   <filter id="displacementFilter">
     <feTurbulence type="turbulence"
-                  numOctaves="3" result="turbulence">
-    <animate attributeType="XML" attributeName="baseFrequency" from=".0001" to=".09"
-        dur="2s" repeatCount="indefinite"/>
+                  numOctaves="1" result="turbulence">
+    <animate attributeType="XML" attributeName="baseFrequency" from=".005" to=".009"
+        dur="50s" repeatCount="indefinite"/>
     </feTurbulence>
     <feDisplacementMap in2="turbulence" in="SourceGraphic"
         scale="50" xChannelSelector="R" yChannelSelector="G"/>
