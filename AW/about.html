@@ -8,30 +8,30 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
-<svg height="1"
-xmlns="http://www.w3.org/2000/svg">
+<svg height="1" xmlns="http://www.w3.org/2000/svg">
   <filter id="displacementFilter">
-    <feTurbulence type="turbulence" 
+    <feTurbulence type="turbulence" baseFrequency="0.1 9"
                   numOctaves="9" result="turbulence">
-    <animate attributeType="XML" attributeName="baseFrequency" from="0.005" to="0.009"
-        dur="10s" repeatCount="indefinite"/>
+    <animate attributeType="XML" attributeName="baseFrequency" from="0.001" to="0.03"
+        dur="50s" repeatCount="indefinite"/>
     </feTurbulence>
     <feDisplacementMap in2="turbulence" in="SourceGraphic"
         scale="10" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
 </svg>
+
 <body>
     <header>
         <div style="filter: url(#displacementFilter)">
-        <figure>
-            <a href="index.html">
-            <img src="img/awlogo.png" width="80" alt="logo" />
-            </a>
-        </figure>
+            <figure>
+                <a href="index.html">
+                    <img src="img/awlogo.png" width="80" alt="logo" />
+                </a>
+            </figure>
         </div>
         <h1>ARNOLD WANG</h1>
     </header>
-<div class="wrapper">
+    <div class="wrapper">
         <nav>
             <ul>
                 <li><a class="home-about" href="works.html">WORKS</a></li>
@@ -51,17 +51,17 @@ xmlns="http://www.w3.org/2000/svg">
         </figure>
         <h2>
             <p>I had a dream I could buy my way to heaven</p>
-                <p>When I awoke, I spent that on a necklace</p>
-                <p>I told God I'd be back in a second</p>
-                <p>Man it's so hard not to act reckless</p>
-                <p>To whom much is given, much is tested</p>
+            <p>When I awoke, I spent that on a necklace</p>
+            <p>I told God I'd be back in a second</p>
+            <p>Man it's so hard not to act reckless</p>
+            <p>To whom much is given, much is tested</p>
             <p>"Can't tell me nothing" by Kanye West</p>
-        
+
         </h2>
     </main>
     </div>
     <footer>&copy;&nbsp;2017 Arnold Wang</footer>
-        
+
 </body>
 
 </html>
