@@ -7,14 +7,27 @@
     <link href="css/styles.css" rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
-
+<svg height="1"
+xmlns="http://www.w3.org/2000/svg">
+  <filter id="displacementFilter">
+    <feTurbulence type="turbulence" 
+                  numOctaves="9" result="turbulence">
+    <animate attributeType="XML" attributeName="baseFrequency" from="0.005" to="0.009"
+        dur="10s" repeatCount="indefinite"/>
+    </feTurbulence>
+    <feDisplacementMap in2="turbulence" in="SourceGraphic"
+        scale="10" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
 <body>
     <header>
+        <div style="filter: url(#displacementFilter)">
         <figure>
             <a href="index.html">
             <img src="img/awlogo.png" width="80" alt="logo" />
             </a>
         </figure>
+        </div>
         <h1>WORKS</h1>
     </header>
     <div class="wrapper">
