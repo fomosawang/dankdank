@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ARNOLD WANG</title>
+    <link href="css/styles.css" rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<svg height="1"
+xmlns="http://www.w3.org/2000/svg">
+  <filter id="displacementFilter">
+    <feTurbulence type="turbulence" baseFrequency="0.1 9"
+                  numOctaves="9" result="turbulence">
+    <animate attributeType="XML" attributeName="baseFrequency" from="0.001" to="0.03"
+        dur="50s" repeatCount="indefinite"/>
+    </feTurbulence>
+    <feDisplacementMap in2="turbulence" in="SourceGraphic"
+        scale="10" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+    
+<body class="homebody">
+    <header class="homeheader">
+            <div class="homepagelogo"style="filter: url(#displacementFilter)">
+            <figure class="homefigure">
+                <img src="img/awlogo.png" width="200" alt="logo" />
+            </figure>
+        </div>
+            <h1 class="home-h1">
+                <a class="home-page" href="index.html">
+                ARNOLD WANG</a>
+            </h1>
+
+            <nav class="home-nav">
+
+                <ul class="home-list">
+                    <li><a class="homenav-works" href="works.html">WORKS</a></li>
+                    <li><a class="homenav-about" href="about.html">ABOUT</a></li>
+                </ul>
+
+            </nav>
+
+    </header>
+
+</body>
+
+</html>
