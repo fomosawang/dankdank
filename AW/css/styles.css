@@ -1,9 +1,7 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-
 
 .homebody {
     font-family: Geneva, Tahoma, Verdana, sans-serif;
@@ -19,8 +17,9 @@
 }
 
 .homebody header {
-        margin-top: 100px;
+    margin-top: 100px;
 }
+
 .homebody figure {
     margin-left: 350px;
     margin-right: 350px;
@@ -29,7 +28,6 @@
     height: 128px;
     text-align: center;
 }
-
 
 .homebody h1 {
     font-family: 'Press Start 2P';
@@ -40,8 +38,8 @@
     text-align: center;
     color: #fff;
     padding-top: 30px;
-    
 }
+
 .homebody nav {
     font-family: 'Press Start 2P';
     font-size: 1.2em;
@@ -54,8 +52,8 @@ li {
 .homebody ul {
     text-align: center;
     padding-top: 15px;
-    
 }
+
 .home-page:link {
     color: #fff;
     text-decoration: none;
@@ -69,6 +67,7 @@ li {
     font-size: 1.2em;
     letter-spacing: 1px;
 }
+
 .home-page:hover {
     color: #ffff00;
     text-decoration: none;
@@ -81,7 +80,6 @@ li {
     text-decoration: none;
     font-size: 1.2em;
     letter-spacing: 1px;
-    
 }
 
 .homenav-works:visited {
@@ -97,6 +95,7 @@ li {
     font-size: 1.2em;
     letter-spacing: 1px;
 }
+
 .homenav-about:link {
     color: #fff;
     text-decoration: none;
@@ -117,10 +116,6 @@ li {
     font-size: 1.2em;
     letter-spacing: 1px;
 }
-.social-links{
-    padding-top: 35px;
-    text-align: center;
-}
 
 .worksbody {
     font-family: Geneva, Tahoma, Verdana, sans-serif;
@@ -137,11 +132,12 @@ li {
     background-attachment: fixed;
 }
 
-.worksbody header{
+.worksbody header {
     display: flex;
     padding-left: 310px;
     text-align: center;
 }
+
 .worksbody h1 {
     font-family: 'Press Start 2P';
     font-size: 56px;
@@ -150,9 +146,11 @@ li {
     color: #fff;
     text-align: center;
 }
+
 .wrapper {
     overflow: hidden;
 }
+
 .worksbody nav {
     display: inline;
     width: 1000px;
@@ -162,21 +160,21 @@ li {
     font-size: 1em;
     text-align: center;
 }
+
 .worksbody ul {
     list-style-type: none;
-    border-style: solid;
-    border-width: thin;
-    border-color: #fff;
     width: 783px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 105px;
     margin-top: 20px;
 }
+
 .worksbody li {
     padding-bottom: 7px;
     padding-left: 3px;
 }
+
 .works-about:link {
     color: #fff;
     text-decoration: none;
@@ -184,6 +182,7 @@ li {
     letter-spacing: 1px;
     width: 850px;
 }
+
 .works-about:visited {
     color: #fff;
     text-decoration: none;
@@ -191,6 +190,7 @@ li {
     letter-spacing: 1px;
     width: 850px;
 }
+
 .works-about:hover {
     color: #ffff00;
     text-decoration: none;
@@ -199,13 +199,14 @@ li {
     width: 850px;
 }
 
-.worksbody main{
+.worksbody main {
     text-align: center;
     width: 850px;
     height: 543px;
     display: block;
     padding-left: 105px;
-} 
+}
+
 .workswrapper figure {
     float: left;
     margin: 20px 20px 0 0;
@@ -217,9 +218,11 @@ li {
     text-align: center;
     overflow: hidden;
 }
-.workswrapper img{
+
+.workswrapper img {
     margin-right: 15px;
 }
+
 .workswrapper figcaption {
     font-family: 'Press Start 2P';
     font-size: 2em;
@@ -234,13 +237,13 @@ li {
     transition: background .35s ease;
     transition: opacity .35s ease;
 }
+
 .workswrapper figcaption:hover {
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 1;
 }
 
-
-.worksfooter{
+.worksfooter {
     font-family: 'Press Start 2P';
     font-size: .3em;
     letter-spacing: 1px;
@@ -249,8 +252,6 @@ li {
     padding-top: 7px;
     padding-bottom: 8px;
 }
-
-
 
 .browsebody {
     font-family: Geneva, Tahoma, Verdana, sans-serif;
@@ -267,11 +268,11 @@ li {
     background-attachment: fixed;
 }
 
-.browsebody header{
+.browsebody header {
     display: flex;
-
 }
-.browsebody h1{
+
+.browsebody h1 {
     font-family: 'Press Start 2P';
     font-size: 28px;
     padding-top: 25px;
@@ -280,27 +281,32 @@ li {
     text-align: center;
     text-decoration: none;
 }
+
 .maintohome:link {
     color: #fff;
     text-decoration: none;
     font-size: 28px;
     letter-spacing: 1px;
 }
+
 .maintohome:visited {
     color: #fff;
     text-decoration: none;
     font-size: 28px;
     letter-spacing: 1px;
 }
+
 .maintohome:hover {
     color: #ffff00;
     text-decoration: none;
     font-size: 28px;
     letter-spacing: 1px;
 }
+
 .aboutwrapper {
     overflow: hidden;
 }
+
 .browsebody nav {
     width: 150px;
     min-height: 450px;
@@ -309,77 +315,87 @@ li {
     font-family: 'Press Start 2P';
     font-size: 1em;
 }
-.main-ul {
+
+.abotuwrapper ul {
     list-style-type: none;
 }
-.main-li {
+
+.aboutwrapper li {
     padding-bottom: 7px;
     padding-left: 3px;
 }
+.main-li{
+        transform: rotate(90deg);
+}
+.browse-works:link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
-.main-works:link {
+.browse-works:visited {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 1px;
 }
-.main-works:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.main-works:hover {
+
+.browse-works:hover {
     color: #ff0000;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 1px;
 }
-.social-links{
-    padding-top: 7px;
-    display: inline-flex;
-    list-style: none;
-    
-}
-.social-links li{
-    padding-right: 15px;
-}
-.maingallery{
+
+.maingallery {
     width: 850px;
     height: 550px;
     float: right;
     display: block;
     margin-bottom: 15px;
     overflow: hidden;
-} 
-h2{
+}
+
+h2 {
     font-family: 'Space Mono';
     float: right;
     font-size: .8em;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     width: 290px;
     margin-top: 20px;
     padding-top: 20px;
 }
-p{
 
+p {
     padding: 0 10px 15px 15px;
 }
 
-.maingallery figure{
+.maingallery figure {
     position: absolute;
 }
+.browse-footer{
+    display: flex;
+}
+.social-links {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 620px;
+}
 
-.mainfooter{
-    margin-left: 250px;
-    margin-right: 180px;
+.social-links li {
+    padding-right: 15px;
+}
+.mainfooter {
     font-family: 'Press Start 2P';
     font-size: .3em;
     letter-spacing: 1px;
     color: #fff;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 11px;
     padding-bottom: 8px;
     padding-left: 10px;
+    position: absolute;
+    margin-left: 400px;
 }
