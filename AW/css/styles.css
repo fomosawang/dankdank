@@ -127,16 +127,13 @@ li {
 }
 
 .worksbody header {
-    display: flex;
-    padding-left: 310px;
     text-align: center;
 }
 
 .worksbody h1 {
     font-family: 'Press Start 2P';
-    font-size: 56px;
-    padding-left: 20px;
-    padding-top: 1px;
+    padding-top: 2px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
 }
@@ -149,7 +146,7 @@ li {
     display: inline;
     width: 1000px;
     height: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: 'Press Start 2P';
     font-size: 1em;
     text-align: center;
@@ -157,16 +154,14 @@ li {
 
 .worksbody ul {
     list-style-type: none;
-    width: 783px;
-    padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 105px;
     margin-top: 20px;
 }
 
 .worksbody li {
     padding-bottom: 7px;
     padding-left: 3px;
+    margin-top: 10px;
 }
 
 .works-about:link {
@@ -413,6 +408,9 @@ p {
     .homebody header {
         margin-top: 30px;
     }
+    .homebody svg{
+        visibility: hidden;
+    }
     .homebody div {
         width: 100%;
         
@@ -424,5 +422,31 @@ p {
     .homebody h1 {
         margin: 0;
         padding: 0;
+    }
+    .worksbody{
+        display: inline-block;
+        float: left;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        background-position: left top;
+        background-size: cover;
+    }
+    .worksbody header{
+        margin: 0;
+        padding-top: 30px;
+    }
+    .workswrapper{
+        margin: 0;
+    }
+    .workswrapper main{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+    .workswrapper figure{
+        width: 90%;
+        height: 90%;
     }
 }
