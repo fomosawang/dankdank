@@ -455,4 +455,7 @@ p {
         margin-left: 0;
         margin-right: 0;
     }
+    .workslinks img{
+        max-width: 90%;
+    }
 }
