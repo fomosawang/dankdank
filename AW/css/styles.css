@@ -138,7 +138,7 @@ li {
     text-align: center;
 }
 
-.wrapper {
+.workswrapper {
     overflow: hidden;
 }
 
@@ -169,7 +169,7 @@ li {
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 1px;
-    width: 850px;
+    padding-top: 10px;
 }
 
 .works-about:visited {
@@ -177,7 +177,7 @@ li {
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 1px;
-    width: 850px;
+    padding-top: 10px;
 }
 
 .works-about:hover {
@@ -185,22 +185,21 @@ li {
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 1px;
-    width: 850px;
+    padding-top: 10px;
 }
 
 .worksbody main {
     text-align: center;
-    width: 850px;
-    height: 543px;
     display: block;
     padding-left: 105px;
 }
+.workslinks{
+    width: 854px;
+}
 
-.workswrapper figure {
+.workslinks figure {
     float: left;
     margin: 20px 20px 0 0;
-    width: 380px;
-    height: 250px;
     border-style: solid;
     border-color: #fff;
     border-width: thin;
@@ -208,28 +207,30 @@ li {
     overflow: hidden;
 }
 
-.workswrapper img {
+.workslinks img {
     margin-right: 15px;
 }
 
-.workswrapper figcaption {
+.workslinks figcaption {
     font-family: 'Press Start 2P';
     font-size: 2em;
     display: block;
     padding-top: 110px;
-    height: 140px;
-    width: 380px;
+    height: 132px;
+    width: 375px;
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     color: #fff;
     opacity: 0;
     transition: background .35s ease;
     transition: opacity .35s ease;
+    overflow: hidden;
 }
 
-.workswrapper figcaption:hover {
+.workslinks figcaption:hover {
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 1;
+    overflow: hidden;
 }
 
 .worksfooter {
@@ -408,24 +409,22 @@ p {
     .homebody header {
         margin-top: 30px;
     }
-    .homebody svg{
-        visibility: hidden;
+    .homebody animate {
+        animation-play-state: paused;
     }
     .homebody div {
         width: 100%;
-        
     }
     .homebody figure {
         margin-bottom: 20px;
         padding-bottom: 0px;
     }
     .homebody h1 {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
     }
-    .worksbody{
+    .worksbody {
         display: inline-block;
-        float: left;
         max-width: 100%;
         max-height: 100%;
         margin: 0 auto;
@@ -433,20 +432,27 @@ p {
         background-position: left top;
         background-size: cover;
     }
-    .worksbody header{
+    .worksbody header {
         margin: 0;
         padding-top: 30px;
     }
-    .workswrapper{
-        margin: 0;
+    .workswrapper {
+        margin: 0 auto;
+        display: block;
     }
-    .workswrapper main{
+    .workswrapper main {
         margin: 0;
-        width: 100%;
         padding: 0;
     }
-    .workswrapper figure{
-        width: 90%;
-        height: 90%;
+    .workslinks{
+        display: inline-block;
+        max-width: 90%;
+    }
+    .workslinks figure{
+        float: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
