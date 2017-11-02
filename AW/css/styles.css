@@ -398,7 +398,7 @@ p {
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .homebody {
         display: inline-block;
-        float: left;
+/*        float: left;*/
         max-width: 100%;
         max-height: 100%;
         margin: 0 auto;
@@ -457,5 +457,11 @@ p {
     }
     .workslinks img{
         max-width: 90%;
+    }
+    .workslinks figcaption{
+        width: 335px;
+        height: 101px;
+        padding-top: 101px;
+        
     }
 }
