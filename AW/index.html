@@ -10,25 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <script src="jquery-3.2.1.min.js"></script>
 </head>
-<svg class="wavy" height="1" xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence type="turbulence" baseFrequency="0.1 9"
-                  numOctaves="9" result="turbulence">
-    <animate attributeType="XML" attributeName="baseFrequency" from="0.001" to="0.03"
-        dur="50s" repeatCount="indefinite"/>
-    </feTurbulence>
-    <feDisplacementMap in2="turbulence" in="SourceGraphic"
-        scale="10" xChannelSelector="R" yChannelSelector="G"/>
-  </filter>
-</svg>
 
 <body class="homebody">
     <header>
-        <div class="homepagelogo" style="filter: url(#displacementFilter)">
             <figure>
-                <img src="img/awlogo.png" width="200" alt="logo" />
+                <img src="img/awlogo.gif" width="200" alt="logo" />
             </figure>
-        </div>
         <h1>
             <a class="home-page" href="index.html">
                 ARNOLD WANG</a>
