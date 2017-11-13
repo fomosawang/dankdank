@@ -1,6 +1,13 @@
-* {
+    * {
     margin: 0;
     padding: 0;
+}
+
+.landscape {
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    color: #fff;
+    visibility: hidden;
 }
 
 .homebody {
@@ -193,7 +200,8 @@ li {
     display: block;
     padding-left: 105px;
 }
-.workslinks{
+
+.workslinks {
     width: 854px;
 }
 
@@ -397,71 +405,89 @@ p {
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .homebody {
-        display: inline-block;
-/*        float: left;*/
         max-width: 100%;
-        max-height: 100%;
         margin: 0 auto;
         padding: 0;
-        background-position: left top;
-        background-size: cover;
+        visibility: hidden;
     }
-    .homebody header {
-        margin-top: 30px;
-    }
-    .homebody animate {
-        animation-play-state: paused;
-    }
-    .homebody div {
-        width: 100%;
-    }
-    .homebody figure {
-        margin-bottom: 20px;
-        padding-bottom: 0px;
-    }
-    .homebody h1 {
-        margin: 0 auto;
-        padding: 0;
-    }
-    .worksbody {
-        display: inline-block;
+    .landscape {
+        font-family: 'Press Start 2P';
+        font-size: 30px;
+        line-height: 60px;
+        letter-spacing: 6px;
         max-width: 100%;
-        max-height: 100%;
-        margin: 0 auto;
-        padding: 0;
-        background-position: left top;
-        background-size: cover;
-    }
-    .worksbody header {
-        margin: 0;
-        padding-top: 30px;
-    }
-    .workswrapper {
-        margin: 0 auto;
         display: block;
+        color: #fff;
+        visibility: visible;
+        padding-top: 200px;
+        text-align:center;
     }
-    .workswrapper main {
-        margin: 0;
-        padding: 0;
+    
+    @media only screen and (orientation:landscape){
+        .homebody {
+            display: inline-block;
+            /*        float: left;*/
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+            padding: 0;
+            background-position: left top;
+            background-size: cover;
+        }
+        .homebody header {
+            margin-top: 30px;
+        }
+        .homebody div {
+            width: 100%;
+        }
+        .homebody figure {
+            margin-bottom: 20px;
+            padding-bottom: 0px;
+        }
+        .homebody h1 {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .worksbody {
+            display: inline-block;
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+            padding: 0;
+            background-position: left top;
+            background-size: cover;
+        }
+        .worksbody header {
+            margin: 0;
+            padding-top: 30px;
+        }
+        .workswrapper {
+            margin: 0 auto;
+            display: block;
+        }
+        .workswrapper main {
+            margin: 0;
+            padding: 0;
+        }
+        .workslinks {
+            display: inline-block;
+            max-width: 90%;
+        }
+        .workslinks figure {
+            float: none;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .workslinks img {
+            max-width: 90%;
+        }
+        .workslinks figcaption {
+            width: 335px;
+            height: 101px;
+            padding-top: 101px;
+        }
     }
-    .workslinks{
-        display: inline-block;
-        max-width: 90%;
-    }
-    .workslinks figure{
-        float: none;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .workslinks img{
-        max-width: 90%;
-    }
-    .workslinks figcaption{
-        width: 335px;
-        height: 101px;
-        padding-top: 101px;
-        
-    }
-}
+
+    
