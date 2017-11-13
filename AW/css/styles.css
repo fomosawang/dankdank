@@ -201,9 +201,6 @@ li {
     padding-left: 105px;
 }
 
-.workslinks {
-    width: 854px;
-}
 
 .workslinks figure {
     float: left;
@@ -462,6 +459,8 @@ p {
     .worksbody header {
         margin: 0;
         padding-top: 30px;
+        padding-left: 20px;
+        position: fixed;
     }
     .workswrapper {
         margin: 0 auto;
@@ -473,7 +472,8 @@ p {
     }
     .workslinks {
         display: inline-block;
-        max-width: 90%;
+        text-align: center;
+        padding-top:88px;
     }
     .workslinks figure {
         float: none;
@@ -481,6 +481,7 @@ p {
         margin-top: 10px;
         margin-left: 0;
         margin-right: 0;
+        width: 335px;
     }
     .workslinks img {
         max-width: 90%;
