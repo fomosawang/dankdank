@@ -1,494 +1,493 @@
-    * {
-    margin: 0;
-    padding: 0;
-}
-
-.landscape {
-    font-family: 'Press Start 2P';
-    font-size: 30px;
-    color: #fff;
-    visibility: hidden;
-}
-
-.homebody {
-    font-family: Geneva, Tahoma, Verdana, sans-serif;
-    font-size: 100%;
-    margin: auto;
-    width: 900px;
-    padding: 50px 50px 50px 50px;
-    background-image: url(../img/galaxy.jpeg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.homebody header {
-    margin-top: 100px;
-}
-
-.homebody figure {
-    padding-bottom: 6px;
-    text-align: center;
-}
-
-.homebody h1 {
-    font-family: 'Press Start 2P';
-    font-size: 1.2em;
-    padding-bottom: 10px;
-    text-align: center;
-    color: #fff;
-    padding-top: 30px;
-}
-
-.homebody nav {
-    font-family: 'Press Start 2P';
-    font-size: 1.2em;
-}
-
-li {
-    display: inline;
-}
-
-.homebody ul {
-    text-align: center;
-    padding-top: 15px;
-}
-
-.home-page:link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.home-page:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.home-page:hover {
-    color: #ffff00;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.homenav-works:link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.homenav-works:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.homenav-works:hover {
-    color: #0000ff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.homenav-about:link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.homenav-about:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.homenav-about:hover {
-    color: #ff0000;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-}
-
-.worksbody {
-    font-family: Geneva, Tahoma, Verdana, sans-serif;
-    font-size: 100%;
-    margin: auto;
-    width: 1000px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 30px;
-    background-image: url(../img/galaxy.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.worksbody header {
-    text-align: center;
-}
-
-.worksbody h1 {
-    font-family: 'Press Start 2P';
-    padding-top: 2px;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-}
-
-.workswrapper {
-    overflow: hidden;
-}
-
-.worksbody nav {
-    display: inline;
-    width: 1000px;
-    height: 50px;
-    padding-top: 10px;
-    font-family: 'Press Start 2P';
-    font-size: 1em;
-    text-align: center;
-}
-
-.worksbody ul {
-    list-style-type: none;
-    padding-bottom: 15px;
-    margin-top: 20px;
-}
-
-.worksbody li {
-    padding-bottom: 7px;
-    padding-left: 3px;
-    margin-top: 10px;
-}
-
-.works-about:link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding-top: 10px;
-}
-
-.works-about:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding-top: 10px;
-}
-
-.works-about:hover {
-    color: #ffff00;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding-top: 10px;
-}
-
-.worksbody main {
-    text-align: center;
-    display: block;
-    padding-left: 105px;
-}
-
-.workslinks {
-    width: 854px;
-}
-
-.workslinks figure {
-    float: left;
-    margin: 20px 20px 0 0;
-    border-style: solid;
-    border-color: #fff;
-    border-width: thin;
-    text-align: center;
-    overflow: hidden;
-}
-
-.workslinks img {
-    margin-right: 15px;
-}
-
-.workslinks figcaption {
-    font-family: 'Press Start 2P';
-    font-size: 2em;
-    display: block;
-    padding-top: 110px;
-    height: 132px;
-    width: 375px;
-    background-color: rgba(0, 0, 0, 0);
-    position: absolute;
-    color: #fff;
-    opacity: 0;
-    transition: background .35s ease;
-    transition: opacity .35s ease;
-    overflow: hidden;
-}
-
-.workslinks figcaption:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    opacity: 1;
-    overflow: hidden;
-}
-
-.worksfooter {
-    font-family: 'Press Start 2P';
-    font-size: .3em;
-    letter-spacing: 1px;
-    color: #fff;
-    text-align: center;
-    padding-top: 7px;
-    padding-bottom: 8px;
-}
-
-.browsebody {
-    font-family: Geneva, Tahoma, Verdana, sans-serif;
-    font-size: 100%;
-    margin: auto;
-    width: 1000px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 30px;
-    background-image: url(../img/galaxy.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.browsebody header {
-    display: flex;
-}
-
-.browsebody h1 {
-    font-family: 'Press Start 2P';
-    font-size: 28px;
-    padding-top: 25px;
-    padding-left: 20px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-}
-
-.maintohome:link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 28px;
-    letter-spacing: 1px;
-}
-
-.maintohome:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 28px;
-    letter-spacing: 1px;
-}
-
-.maintohome:hover {
-    color: #ffff00;
-    text-decoration: none;
-    font-size: 28px;
-    letter-spacing: 1px;
-}
-
-.aboutwrapper {
-    overflow: hidden;
-}
-
-.browsebody nav {
-    width: 150px;
-    min-height: 450px;
-    padding-top: 20px;
-    float: left;
-    font-family: 'Press Start 2P';
-    font-size: 1em;
-}
-
-.abotuwrapper ul {
-    list-style-type: none;
-}
-
-.aboutwrapper li {
-    padding-bottom: 7px;
-    padding-left: 3px;
-}
-
-.main-li {
-    transform: rotate(90deg);
-}
-
-.browse-works:link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.browse-works:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.browse-works:hover {
-    color: #ff0000;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.maingallery {
-    width: 850px;
-    height: 550px;
-    float: right;
-    display: block;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-h2 {
-    font-family: 'Space Mono';
-    float: right;
-    font-size: .8em;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    width: 290px;
-    margin-top: 20px;
-    padding-top: 20px;
-}
-
-p {
-    padding: 0 10px 15px 15px;
-}
-
-.maingallery figure {
-    position: absolute;
-}
-
-.browse-footer {
-    display: flex;
-}
-
-.social-links {
-    display: inline-flex;
-    list-style: none;
-    margin-left: 620px;
-}
-
-.social-links li {
-    padding-right: 15px;
-}
-
-.mainfooter {
-    font-family: 'Press Start 2P';
-    font-size: .3em;
-    letter-spacing: 1px;
-    color: #fff;
-    text-align: center;
-    padding-top: 11px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    position: absolute;
-    margin-left: 400px;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-    .homebody {
-        max-width: 100%;
-        max-height: 100%;
-        margin: 0 auto;
-        padding: 0;
-        visibility: hidden;
-    }
-    .landscape {
-        font-family: 'Press Start 2P';
-        font-size: 30px;
-        line-height: 60px;
-        letter-spacing: 6px;
-        max-width: 100%;
-        display: block;
-        color: #fff;
-        visibility: visible;
-        padding-top: 200px;
-        text-align:center;
-    }
-    
-    @media only screen and (orientation:landscape){
-        .homebody {
-            display: inline-block;
-            /*        float: left;*/
-            max-width: 100%;
-            max-height: 100%;
-            margin: 0 auto;
-            padding: 0;
-            background-position: left top;
-            background-size: cover;
-        }
-        .homebody header {
-            margin-top: 30px;
-        }
-        .homebody div {
-            width: 100%;
-        }
-        .homebody figure {
-            margin-bottom: 20px;
-            padding-bottom: 0px;
-        }
-        .homebody h1 {
-            margin: 0 auto;
-            padding: 0;
-        }
-        .worksbody {
-            display: inline-block;
-            max-width: 100%;
-            max-height: 100%;
-            margin: 0 auto;
-            padding: 0;
-            background-position: left top;
-            background-size: cover;
-        }
-        .worksbody header {
+        * {
             margin: 0;
+            padding: 0;
+        }
+        
+        .landscape {
+            font-family: 'Press Start 2P';
+            font-size: 30px;
+            color: #fff;
+            visibility: hidden;
+        }
+        
+        .homebody {
+            font-family: Geneva, Tahoma, Verdana, sans-serif;
+            font-size: 100%;
+            margin: auto;
+            width: 900px;
+            padding: 50px 50px 50px 50px;
+            background-image: url(../img/galaxy.jpeg);
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .homebody header {
+            margin-top: 100px;
+        }
+        
+        .homebody figure {
+            padding-bottom: 6px;
+            text-align: center;
+        }
+        
+        .homebody h1 {
+            font-family: 'Press Start 2P';
+            font-size: 1.2em;
+            padding-bottom: 10px;
+            text-align: center;
+            color: #fff;
             padding-top: 30px;
         }
+        
+        .homebody nav {
+            font-family: 'Press Start 2P';
+            font-size: 1.2em;
+        }
+        
+        li {
+            display: inline;
+        }
+        
+        .homebody ul {
+            text-align: center;
+            padding-top: 15px;
+        }
+        
+        .home-page:link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .home-page:visited {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .home-page:hover {
+            color: #ffff00;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .homenav-works:link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .homenav-works:visited {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .homenav-works:hover {
+            color: #0000ff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .homenav-about:link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .homenav-about:visited {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .homenav-about:hover {
+            color: #ff0000;
+            text-decoration: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        
+        .worksbody {
+            font-family: Geneva, Tahoma, Verdana, sans-serif;
+            font-size: 100%;
+            margin: auto;
+            width: 1000px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 30px;
+            background-image: url(../img/galaxy.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .worksbody header {
+            text-align: center;
+        }
+        
+        .worksbody h1 {
+            font-family: 'Press Start 2P';
+            padding-top: 2px;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
         .workswrapper {
-            margin: 0 auto;
-            display: block;
+            overflow: hidden;
         }
-        .workswrapper main {
-            margin: 0;
-            padding: 0;
+        
+        .worksbody nav {
+            display: inline;
+            width: 1000px;
+            height: 50px;
+            padding-top: 10px;
+            font-family: 'Press Start 2P';
+            font-size: 1em;
+            text-align: center;
         }
-        .workslinks {
-            display: inline-block;
-            max-width: 90%;
+        
+        .worksbody ul {
+            list-style-type: none;
+            padding-bottom: 15px;
+            margin-top: 20px;
         }
-        .workslinks figure {
-            float: none;
-            margin-bottom: 10px;
+        
+        .worksbody li {
+            padding-bottom: 7px;
+            padding-left: 3px;
             margin-top: 10px;
-            margin-left: 0;
-            margin-right: 0;
         }
+        
+        .works-about:link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding-top: 10px;
+        }
+        
+        .works-about:visited {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding-top: 10px;
+        }
+        
+        .works-about:hover {
+            color: #ffff00;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding-top: 10px;
+        }
+        
+        .worksbody main {
+            text-align: center;
+            display: block;
+            padding-left: 105px;
+        }
+        
+        .workslinks {
+            width: 854px;
+        }
+        
+        .workslinks figure {
+            float: left;
+            margin: 20px 20px 0 0;
+            border-style: solid;
+            border-color: #fff;
+            border-width: thin;
+            text-align: center;
+            overflow: hidden;
+        }
+        
         .workslinks img {
-            max-width: 90%;
+            margin-right: 15px;
         }
+        
         .workslinks figcaption {
-            width: 335px;
-            height: 101px;
-            padding-top: 101px;
+            font-family: 'Press Start 2P';
+            font-size: 2em;
+            display: block;
+            padding-top: 110px;
+            height: 132px;
+            width: 375px;
+            background-color: rgba(0, 0, 0, 0);
+            position: absolute;
+            color: #fff;
+            opacity: 0;
+            transition: background .35s ease;
+            transition: opacity .35s ease;
+            overflow: hidden;
         }
-    }
-
-    
+        
+        .workslinks figcaption:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 1;
+            overflow: hidden;
+        }
+        
+        .worksfooter {
+            font-family: 'Press Start 2P';
+            font-size: .3em;
+            letter-spacing: 1px;
+            color: #fff;
+            text-align: center;
+            padding-top: 7px;
+            padding-bottom: 8px;
+        }
+        
+        .browsebody {
+            font-family: Geneva, Tahoma, Verdana, sans-serif;
+            font-size: 100%;
+            margin: auto;
+            width: 1000px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 30px;
+            background-image: url(../img/galaxy.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .browsebody header {
+            display: flex;
+        }
+        
+        .browsebody h1 {
+            font-family: 'Press Start 2P';
+            font-size: 28px;
+            padding-top: 25px;
+            padding-left: 20px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .maintohome:link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        
+        .maintohome:visited {
+            color: #fff;
+            text-decoration: none;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        
+        .maintohome:hover {
+            color: #ffff00;
+            text-decoration: none;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        
+        .aboutwrapper {
+            overflow: hidden;
+        }
+        
+        .browsebody nav {
+            width: 150px;
+            min-height: 450px;
+            padding-top: 20px;
+            float: left;
+            font-family: 'Press Start 2P';
+            font-size: 1em;
+        }
+        
+        .abotuwrapper ul {
+            list-style-type: none;
+        }
+        
+        .aboutwrapper li {
+            padding-bottom: 7px;
+            padding-left: 3px;
+        }
+        
+        .main-li {
+            transform: rotate(90deg);
+        }
+        
+        .browse-works:link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .browse-works:visited {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .browse-works:hover {
+            color: #ff0000;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .maingallery {
+            width: 850px;
+            height: 550px;
+            float: right;
+            display: block;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        
+        h2 {
+            font-family: 'Space Mono';
+            float: right;
+            font-size: .8em;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            width: 290px;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        
+        p {
+            padding: 0 10px 15px 15px;
+        }
+        
+        .maingallery figure {
+            position: absolute;
+        }
+        
+        .browse-footer {
+            display: flex;
+        }
+        
+        .social-links {
+            display: inline-flex;
+            list-style: none;
+            margin-left: 620px;
+        }
+        
+        .social-links li {
+            padding-right: 15px;
+        }
+        
+        .mainfooter {
+            font-family: 'Press Start 2P';
+            font-size: .3em;
+            letter-spacing: 1px;
+            color: #fff;
+            text-align: center;
+            padding-top: 11px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            position: absolute;
+            margin-left: 400px;
+        }
+        
+        @media only screen and (orientation:portrait) and (min-width: 320px) and (max-width: 479px) {
+            .homebody {
+                max-width: 100%;
+                max-height: 100%;
+                margin: 0 auto;
+                padding: 0;
+                visibility: hidden;
+            }
+            .landscape {
+                font-family: 'Press Start 2P';
+                font-size: 30px;
+                line-height: 60px;
+                letter-spacing: 6px;
+                max-width: 100%;
+                display: block;
+                color: #fff;
+                visibility: visible;
+                padding-top: 200px;
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (orientation:landscape) and (min-width:667px) and (max-width:732px) {
+            .homebody {
+                display: inline-block;
+                /*        float: left;*/
+                max-width: 100%;
+                max-height: 100%;
+                margin: 0 auto;
+                padding: 0;
+                background-position: left top;
+                background-size: cover;
+            }
+            .homebody header {
+                margin-top: 30px;
+            }
+            .homebody div {
+                width: 100%;
+            }
+            .homebody figure {
+                margin-bottom: 20px;
+                padding-bottom: 0px;
+            }
+            .homebody h1 {
+                margin: 0 auto;
+                padding: 0;
+            }
+            .worksbody {
+                display: inline-block;
+                max-width: 100%;
+                max-height: 100%;
+                margin: 0 auto;
+                padding: 0;
+                background-position: left top;
+                background-size: cover;
+            }
+            .worksbody header {
+                margin: 0;
+                padding-top: 30px;
+            }
+            .workswrapper {
+                margin: 0 auto;
+                display: block;
+            }
+            .workswrapper main {
+                margin: 0;
+                padding: 0;
+            }
+            .workslinks {
+                display: inline-block;
+                max-width: 90%;
+            }
+            .workslinks figure {
+                float: none;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .workslinks img {
+                max-width: 90%;
+            }
+            .workslinks figcaption {
+                width: 335px;
+                height: 101px;
+                padding-top: 101px;
+            }
+        }
